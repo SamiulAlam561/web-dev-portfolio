@@ -198,3 +198,36 @@ hr{
 .resume-download-btn{
   margin-top: 50px;
 }
+/* footer styles */
+
+footer{
+  display: flex;
+  gap: 115px;
+  padding: 130px 230px;
+}
+.footer-col{
+  width: 50%;
+}
+footer .footer-title{
+  margin-bottom: 20px;
+}
+footer .footer-description{
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.footer-col img{
+  margin-right: 24px;
+}
+footer input[type="text"],input[type="email"],textarea{
+  display: block;
+  height: 64px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  border: none;
+}
+footer textarea{
+  height: 180px;
+  width: 100%;
+}
