@@ -162,3 +162,39 @@ main section {
   color: #757575;
   margin-bottom: 50px;
 }
+/* resume styles */
+.resume-container{
+  display: flex;
+  gap: 70px;
+}
+.resume-col-title{
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #474747;
+  font-weight: bold;
+}
+.experience{
+  margin-bottom: 30px;
+}
+.experience-title{
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-subtitle{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+}
+.experience-description{
+  font-size: 16px;
+color: #757575;
+}
+hr{
+  margin-bottom: 30px;
+}
+.resume-download-btn{
+  margin-top: 50px;
+}
