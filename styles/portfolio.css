@@ -126,6 +126,13 @@ main section {
 .about {
   text-align: center;
   padding: 130px 150px;
+  border-radius: 10px;
+}
+.about-description {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
 .about-items {
   display: flex;
@@ -147,7 +154,7 @@ main section {
   gap: 24px;
 }
 .skill {
-  padding: 24px;
+  padding: 35px;
   box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
   border-radius: 5px;
 }
@@ -160,66 +167,71 @@ main section {
 .skill-description {
   font-size: 16px;
   color: #757575;
-  margin-bottom: 50px;
 }
 /* resume styles */
-.resume-container{
+.resume-container {
   display: flex;
   gap: 70px;
 }
-.resume-col-title{
+.resume-title {
+  margin-bottom: 110px;
+}
+.resume-col-title {
   margin-bottom: 30px;
   font-size: 30px;
   color: #474747;
   font-weight: bold;
 }
-.experience{
+.experience {
   margin-bottom: 30px;
 }
-.experience-title{
+.experience-title {
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: bold;
   color: #474747;
 }
-.experience-subtitle{
+.experience-subtitle {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   color: #757575;
 }
-.experience-description{
-  font-size: 16px;
-color: #757575;
+.experience-description {
+  font-size: 15px;
+  line-height: 28px;
+  color: #757575;
 }
-hr{
+hr {
   margin-bottom: 30px;
 }
-.resume-download-btn{
+.resume-download-btn {
   margin-top: 50px;
 }
 /* footer styles */
 
-footer{
+footer {
   display: flex;
   gap: 115px;
   padding: 130px 230px;
 }
-.footer-col{
+.footer-col {
   width: 50%;
 }
-footer .footer-title{
+footer .footer-title {
   margin-bottom: 20px;
 }
-footer .footer-description{
+footer .footer-description {
   font-size: 16px;
   color: #474747;
   margin-bottom: 30px;
 }
-.footer-col img{
+.footer-col img {
   margin-right: 24px;
 }
-footer input[type="text"],input[type="email"],textarea{
+footer input[type="text"],
+input[type="email"],
+textarea {
   display: block;
   height: 64px;
   width: 100%;
@@ -227,7 +239,7 @@ footer input[type="text"],input[type="email"],textarea{
   padding: 18px 30px;
   border: none;
 }
-footer textarea{
+footer textarea {
   height: 180px;
   width: 100%;
 }
