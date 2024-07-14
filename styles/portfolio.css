@@ -257,22 +257,64 @@ footer textarea {
   .about{
     margin: 20px 0;
   }
+  .section-title{
+    margin-bottom: 30px;
+  }
+  .header{
+    background-image: none;
+    margin-bottom: 20px;
+  }
   .resume-download-btn {
     margin-top: -5px;
   }
   .skills-container,
   .resume-container,
   footer,
-  .about-items{
+  .about-items,
+  .banner,
+  nav,
+  nav > ul{
     flex-direction: column;
+  }
+  nav{
+    align-items: normal;
+  }
+  .nav-title{
+    margin-bottom: 20px;
+  }
+  nav > ul{
+    gap: 20px;
+  }
+  .banner{
+    margin: 20px;
+  }
+  .banner-greet{
+    font-size: 40px;
+  }
+  .banner-title{
+    font-size: 64px;
+  }
+  .banner-profile-pic{
+    width: 100%;
+  }
+  
+  .banner-content button{
+    margin: 10px 20px 10px 0;
+  }
+  .banner-description{
+    margin-bottom: 15px;
   }
   .about-item{
     margin-bottom: 20px;
   }
+  .about-description{
+    margin-bottom: 30px;
+  }
   .skills-info,
   .resume-container,
   footer,
-  .about{
+  .about,
+  nav{
     padding: 20px;
   }
   footer{
