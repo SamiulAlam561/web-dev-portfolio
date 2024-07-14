@@ -243,3 +243,43 @@ footer textarea {
   height: 180px;
   width: 100%;
 }
+/* responsive media queries */
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:576px){
+  .skills,
+  .resume-container,
+  .resume,
+  footer,
+  .about{
+    margin: 20px 0;
+  }
+  .resume-download-btn {
+    margin-top: -5px;
+  }
+  .skills-container,
+  .resume-container,
+  footer,
+  .about-items{
+    flex-direction: column;
+  }
+  .about-item{
+    margin-bottom: 20px;
+  }
+  .skills-info,
+  .resume-container,
+  footer,
+  .about{
+    padding: 20px;
+  }
+  footer{
+    gap: 40px;
+    text-align: center;
+  }
+  .footer-col{
+    width: 100%;
+  }
+}
