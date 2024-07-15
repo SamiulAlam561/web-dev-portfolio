@@ -325,3 +325,60 @@ footer textarea {
     width: 100%;
   }
 }
+
+/* tablet responsive layout */
+
+.hide{
+  display: none;
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+  .skills-container,.resume-container,.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 0;
+  }
+  footer{
+    gap: 65px;
+  }
+  .about,.skills-info,.skills-container,.resume-container,footer{
+    padding: 50px;
+  }
+  .resume-title,
+  main section,
+  .about{
+    margin: 56px 0;
+  }
+  .about-description{
+    margin-bottom: 20px;
+  }
+  .resume-download-btn{
+    margin-top: 0px;
+  }
+  .header{
+    background-image: none;
+  }
+  .banner-profile-pic{
+    width: 100%;
+  }
+  .banner{
+    margin: 0;
+    padding: 30px;
+  }
+  .banner-greet{
+    font-size: 36px;
+  }
+  .banner-title{
+    font-size: 62px;
+  }
+  nav{
+    padding: 30px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+}
